@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -32,7 +33,13 @@ import { RecipeService } from './recipes/recipe.service';
     RescipeStartComponent,
     RecipesEditComponent,
   ],
-  imports: [BrowserModule, FormsModule, AppRouting, ReactiveFormsModule],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    AppRouting,
+    ReactiveFormsModule,
+    HttpClientModule,
+  ],
   providers: [ShoppingListService, RecipeService],
   bootstrap: [AppComponent],
 })
