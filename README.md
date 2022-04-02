@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
 ## Installing dependencies
-Run `npm i` to install all required dependencies, creating noode-modules folder.
+Run `npm i` to install all required dependencies, creating node-modules folder.
 
 ## Development server
 
