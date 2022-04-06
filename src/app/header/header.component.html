@@ -10,6 +10,9 @@
           <a [routerLink]="['recipes']" routerLinkActive="active">Recipes</a>
         </li>
         <li>
+          <a routerLink="auth" routerLinkActive="active">Authenticate</a>
+        </li>
+        <li>
           <a routerLink="shopping-list" routerLinkActive="active"
             >Shopping List</a
           >
@@ -24,7 +27,9 @@
             <li>
               <a style="cursor: pointer" (click)="onSaveData()">Save Data</a>
             </li>
-            <li><a style="cursor: pointer" (click)="onFetchData()">Fetch Data</a></li>
+            <li>
+              <a style="cursor: pointer" (click)="onFetchData()">Fetch Data</a>
+            </li>
           </ul>
         </li>
       </ul>

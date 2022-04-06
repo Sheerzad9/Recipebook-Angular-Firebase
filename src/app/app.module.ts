@@ -18,6 +18,7 @@ import { AppRouting } from './app-routing.module';
 import { RescipeStartComponent } from './recipes/rescipe-start/rescipe-start.component';
 import { RecipesEditComponent } from './recipes/recipes-edit/recipes-edit.component';
 import { RecipeService } from './recipes/recipe.service';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { RecipeService } from './recipes/recipe.service';
     DropdownDirective,
     RescipeStartComponent,
     RecipesEditComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,
