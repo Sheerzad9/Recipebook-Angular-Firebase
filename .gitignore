@@ -7,7 +7,5 @@
 # dependencies
 /node_modules
 
-# Authentication
-src/app/auth/
 
 .browserslistrc
